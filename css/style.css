@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root {
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 2.5rem;
+  --space-6: 3rem;
+
+  --fs-1: 0.8rem;
+  --fs-1: 1rem;
+  --fs-1: 1.3rem;
+  --fs-1: 1.5rem;
+  --fs-1: 1.8rem;
+  --fs-1: 2rem;
+
+  --clr-light: #fffffc;
+  --clr-light-fade: #f8f8f8;
+
+  --clr-dark: #101720;
+  --clr-dark-fade: #212a37;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: var(--clr-light);
+  color: var(--clr-dark-fade);
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1,h2,h3 {
+  font-family: "Funnel Display", sans-serif;
+}
