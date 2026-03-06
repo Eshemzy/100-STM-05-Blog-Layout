@@ -285,7 +285,7 @@ input[type="submit"] {
 }
 .main-inner aside .related .post .text-wrapper p {
   font-size: clamp(0.65rem, 0.508rem + 0.81vw, 0.8rem);
-  columns: var(--txt-clr-muted);
+  color: var(--txt-clr-muted);
 }
 .main-inner aside .related .post .meta {
   display: flex;
