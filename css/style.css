@@ -63,13 +63,6 @@ aside {
   display: none;
 }
 
-.hero {
-  background-image: url('/planet-earth.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
 .hero-inner {
   display: flex;
   flex-direction: column;
