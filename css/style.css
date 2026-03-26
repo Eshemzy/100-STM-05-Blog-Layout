@@ -246,6 +246,22 @@ input[type="submit"] {
   background-color: #fff;
   border-radius: 10px;
 }
+.main-inner aside .about-author {
+  width: 100%;
+  max-width: 200px;
+  margin-inline: auto;
+  border: 1px solid lightgrey;
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+.main-inner aside .about-author .img-cont img {
+  max-width: 100%;
+  height: auto;
+}
 .main-inner aside .category ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
