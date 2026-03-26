@@ -240,20 +240,24 @@ input[type="submit"] {
   border-radius: 10px;
 }
 .main-inner aside .about-author {
-  width: 100%;
-  max-width: 200px;
-  margin-inline: auto;
-  border: 1px solid lightgrey;
-  padding: 0.3rem;
+  max-width: 100%;
+  border: 1px solid lightgray;
+  padding: 0.1rem 0.3rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0 0 10px #000;
 }
 .main-inner aside .about-author .img-cont img {
-  max-width: 100%;
+  max-width: 200px;
+  width: 100%;
   height: auto;
+  border-radius: 50%;
+}
+.main-inner aside .about-author .wrapper .links-wrapper a {
+  text-decoration: none;
+  color: var(--clr-dark);
+  font-size: var(--fs-4);
 }
 .main-inner aside .category ul {
   display: grid;
