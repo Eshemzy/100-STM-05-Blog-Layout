@@ -214,18 +214,30 @@ input[type="submit"] {
   border-radius: 10px;
 }
 .main-inner article p,
-.main-inner article li {
+.main-inner article li,
+.main-inner article span {
   font-size: clamp(0.8rem, 0.705rem + 0.54vw, 0.9rem);
 }
 .main-inner article .article-image img {
   max-width: 100%;
   height: auto;
 }
+.main-inner article .article-section,
+.main-inner article .article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 .main-inner article .article-list ul {
   display: flex;
   flex-direction: column;
   gap: clamp(0.3rem, 0.111rem + 1.08vw, 0.5rem);
   list-style: none;
+}
+.main-inner article .article-list ul li span.head {
+  display: block;
+  font-weight: 700;
+  text-decoration: underline;
 }
 .main-inner aside {
   display: flex;
