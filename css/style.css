@@ -414,6 +414,22 @@ input[type="submit"] {
   .main-inner article span {
     font-size: 0.9rem;
   }
+  .main-inner aside .content-table ul {
+    list-style: none;
+  }
+  .main-inner aside .content-table ul li:not(:last-child) {
+    border-bottom: 1px solid #000;
+  }
+  .main-inner aside .content-table ul li a {
+    text-decoration: none;
+    color: var(--clr-dark);
+    position: relative;
+  }
+  .main-inner aside .content-table ul li a::before {
+    content: '>';
+    position: absolute;
+    left: -0.75rem;
+  }
   .main-inner aside .about-author {
     padding: 0.1rem 0.3rem;
     flex-direction: column;
