@@ -385,12 +385,16 @@ input[type="submit"] {
   .nav ul {
     display: flex;
     list-style-type: none;
-    gap: 0.5rem;
+    gap: 2rem;
   }
   .nav ul li a {
     display: inline-block;
     text-decoration: none;
     color: var(--clr-light);
+    transition: color 300ms ease;
+  }
+  .nav ul li a:hover {
+    color: green;
   }
   .cta-btn {
     text-decoration: none;
@@ -399,6 +403,11 @@ input[type="submit"] {
     padding: var(--space-1);
     border-radius: 0.5rem;
     color: var(--clr-dark);
+    transition: background-color 300ms ease, color 300ms ease;
+  }
+  .cta-btn:hover {
+    background-color: green;
+    color: #fff;
   }
   .main-inner {
     grid-template-columns: 3fr 1fr;
@@ -447,7 +456,6 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 577px) and (max-width: 1400px) {
-  
   .hero-inner,
   article,
   aside {
@@ -455,5 +463,8 @@ input[type="submit"] {
   }
   .main-inner {
     gap: clamp(0.3rem, -0.191rem + 1.36vw, 1rem);
+  }
+  .nav ul {
+    gap: clamp(1rem, -0.402rem + 3.89vw, 3rem);
   }
 }
