@@ -149,12 +149,11 @@ a.logo {
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
-/* .meta-right {
+.meta-right {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-1);
-} */
+  gap: 0.3rem;
+}
 .meta-right span {
   font-size: 0.8rem;
   border: 1px solid lightgray;
@@ -450,9 +449,6 @@ input[type="submit"] {
   .main-inner aside .about-author .wrapper .links-wrapper a {
     font-size: var(--fs-3);
   }
-  .main-inner aside .related .post-wrapper .post {
-    /* flex-direction: row; */
-  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1400px) {
@@ -466,5 +462,23 @@ input[type="submit"] {
   }
   .nav ul {
     gap: clamp(1rem, -0.402rem + 3.89vw, 3rem);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hero {
+    position: relative;
+  }
+  .meta-right {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    gap: clamp(0.1rem, -0.3rem + 2.29vw, 0.3rem);
+    flex-wrap: wrap;
+  }
+  .meta-right span {
+    font-size: clamp(0.5rem, -0.1rem + 3.43vw, 0.8rem);
   }
 }
