@@ -54,12 +54,12 @@ article,
 aside {
   padding: var(--space-1) clamp(0.7rem, 0.416rem + 1.62vw, 1rem);
 }
-.main-inner,
+/* .main-inner,
 .footer-inner {
   width: 100%;
   max-width: 1100px;
   margin-inline: auto;
-}
+} */
 .mobile-hidden {
   display: none;
 }
@@ -447,6 +447,12 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 577px) and (max-width: 1400px) {
+  
+  .hero-inner,
+  article,
+  aside {
+    padding: var(--space-1) clamp(1rem, -0.402rem + 3.89vw, 3rem);
+  }
   .main-inner {
     gap: clamp(0.3rem, -0.191rem + 1.36vw, 1rem);
   }
