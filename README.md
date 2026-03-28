@@ -52,7 +52,7 @@ This project emphasizes:
 
 
 ⚙️<strong>Run Locally</strong> <br>
-git clone https://github.com/your-username/100-STM-05-Blog-Layout.git <br>
+git clone https://github.com/eshemzy/100-STM-05-Blog-Layout.git <br>
 cd 100-STM-05-Blog-Layout <br>
 open index.html <br>
 
