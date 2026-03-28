@@ -67,7 +67,7 @@ open index.html <br>
 This is project 05 / 100 of my challenge
 
 🤝 <strong>Connect With Me</strong> <br>
-GitHub: https://github.com/your-username <br>
+GitHub: https://github.com/eshemzy <br>
 Portfolio: (coming soon)👀
 
 ⭐ <strong>Support</strong> <br>
